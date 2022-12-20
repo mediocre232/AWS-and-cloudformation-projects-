@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
+  MyECRRepository:
+    Type: AWS::ECR::Repository
+  MyCodePipeline:
+    Type: AWS::CodePipeline::Pipeline
+    Properties:
+      # Add CodePipeline properties here
