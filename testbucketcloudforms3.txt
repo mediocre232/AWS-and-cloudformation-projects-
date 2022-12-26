@@ -1,0 +1,8 @@
+{
+    "Resources": {
+        "testbucket123": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {}
+        }
+    }
+}
